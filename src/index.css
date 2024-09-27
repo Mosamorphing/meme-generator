@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 36px
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--sub {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 17px;
+    width: 100%; 
+}
+
+.form div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.form label {
+    margin-bottom: 5px; 
+}
+
+.form--input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.form--button {
+    grid-column: span 2; 
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
