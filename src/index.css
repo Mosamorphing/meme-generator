@@ -57,6 +57,7 @@ main {
     border: 1px solid #D5D4D8;
     padding: 5px;
     font-size: 1rem;
+    text-indent: 5px;
 }
 
 .form--button {
@@ -69,4 +70,51 @@ main {
     border: none;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.meme {
+    position: relative; 
+    width: fit-content; 
+    margin-top: 20px;
+}
+
+.meme--image {
+    width: 100%;
+    border-radius: 3px;
+    display: block;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.meme--text.top {
+    top: 0; /* Position top text at the top */
+    margin-top: 10px;
+}
+
+.meme--text.bottom {
+    bottom: 0; /* Position bottom text at the bottom */
+    margin-bottom: 10px;
 }
