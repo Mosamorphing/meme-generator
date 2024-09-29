@@ -15,7 +15,7 @@ main {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background: linear-gradient(135deg, #1E3A8A 0%, #2D68C4 100%);
     color: white;
     padding: 20px;
 }
@@ -31,7 +31,7 @@ main {
 }
 
 .header--sub {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 500;
 }
 
@@ -65,7 +65,7 @@ main {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background: linear-gradient(135deg, #1E3A8A 0%, #2D68C4 100%);
     color: white;
     border: none;
     cursor: pointer;
@@ -110,11 +110,11 @@ main {
 }
 
 .meme--text.top {
-    top: 0; /* Position top text at the top */
+    top: 0; 
     margin-top: 10px;
 }
 
 .meme--text.bottom {
-    bottom: 0; /* Position bottom text at the bottom */
+    bottom: 0; 
     margin-bottom: 10px;
 }
